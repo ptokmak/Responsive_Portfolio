@@ -1,3 +1,5 @@
+/*main*/
+
 body {
 	background: url("../images/concrete_seamless.png");
 	font-size: 18px;
@@ -214,7 +216,9 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
 /*media queries*/
+
 @media screen and (max-width: 980px){
 
 	.container {
@@ -230,8 +234,7 @@ input[type=submit] {
 	}
 
 	.main-section{
-		width: 60%;	
-				
+		width: 60%;					
 	}		
 	
 	.sidebar{
@@ -242,87 +245,62 @@ input[type=submit] {
 
 	section p{
 	margin-top: 100%;	
-	
 	}
 
 	.auth-image {
 		height:70%;
 		width: 70%;
 	}
-
-
 }
 
-
-
-@media screen and (max-width: 768px) {
-	
+@media screen and (max-width: 768px) {	
 
 	.main-section{
 		width: 100%;				 	
 		float: left;
-		margin-left: 5%;		
-				
-	}
-		
-		
+		margin-left: 5%;					
+	}		
 	.sidebar{	
 		max-width: 100%;
 		width: 650px;				 	
 		float: left;
-		margin-left: 5%;
-		
+		margin-left: 5%;		
 	}	
-
 	.auth-image {
 		height:50%;
 		width: 50%;
-	}
-	
+	}	
 	section p{
 	margin-top: 10px;	
-	}
-	
+	}	
 }
 
 @media screen and (max-width: 640px) {
 
-
 	.work{
 		margin-top: 10%;
-
 	}
-
 	.main-section{
 		max-width: 580px;
 		width: 100%;
 		margin-top: 50px;		
 		float: left;			
 	}
-
-
 	.sidebar{
 		max-width: 580px;
 		width:100%;
 		float:left;
 	}
-
 	nav{
 
 		width: 97%;
 		margin-left: 3%;
 	}
-	
-
-#logo {
-	max-width: 650px;
-	width:100%;
-	max-height: 90px;
-	height: 100%;
-	margin-left: -10px ;
-	
+	#logo {
+		max-width: 650px;
+		width:100%;
+		max-height: 90px;
+		height: 100%;
+		margin-left: -10px ;		
 	}
-
-
-
 }
